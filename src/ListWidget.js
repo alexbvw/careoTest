@@ -26,8 +26,6 @@ const users = [
 ];
 
 export default function ListWidget() {
-  // const [activeTab, setActiveTab] = React.useState(0);
-
   return (
     <div className="listWidget">
       {users.map((user, index) => (
