@@ -1,6 +1,4 @@
 import React from 'react'
-
-
 const users = [
   { 
     name: 'Skylar', 
@@ -22,7 +20,6 @@ const users = [
     comments: 0,
     attachments: 1
   }
-
 ];
 
 export default function ListWidget() {
